@@ -4,10 +4,10 @@ local M = {}
 
 -- INFO: Requires kikao.nvim to be installed for persisting order and sorting state
 -- acrros Neovim restarts.
--- See: https://github.com/mistweaverco/kikao.nvim
+-- See: https://github.com/dont-be-evil-company/kikao.nvim
 -- Will print warnings (if log level is set to to warn)
 -- if kikao.nvim is not found when attempting to use persistence features.
-local KIKAO_URL = "https://github.com/mistweaverco/kikao.nvim"
+local KIKAO_URL = "https://github.com/dont-be-evil-company/kikao.nvim"
 
 ---State management for buffer operations
 ---@class BafaState

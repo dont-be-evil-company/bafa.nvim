@@ -1,6 +1,6 @@
 <script lang="ts">
 	import HeadComponent from "$lib/HeadComponent.svelte";
-	const GH_BASE_URL = "https://github.com/mistweaverco/bafa.nvim/";
+	const GH_BASE_URL = "https://github.com/dont-be-evil-company/bafa.nvim/";
 
 	const handleAnchorClick = (evt: Event) => {
 		evt.preventDefault();
@@ -147,7 +147,7 @@
 			<h1 class="text-5xl font-bold">Get involved ❤️</h1>
 			<p class="py-6">bafa.nvim is open-source and we welcome contributions.</p>
 			<p>
-				View the <a class="text-secondary" href="https://github.com/mistweaverco/bafa.nvim">code.</a>
+				View the <a class="text-secondary" href="https://github.com/dont-be-evil-company/bafa.nvim">code.</a>
 			</p>
 		</div>
 	</div>

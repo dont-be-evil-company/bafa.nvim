@@ -5,7 +5,6 @@
 # bafa.nvim
 
 [![Made with love][badge-made-with-love]][contributors]
-[![Development status][badge-development-status]][development-status]
 [![Our manifesto][badge-our-manifesto]][our-manifesto]
 ![Made with lua][badge-made-with-lua]
 [![Latest release][badge-latest-release]][latest-release]
@@ -77,8 +76,8 @@ See: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
-  'mistweaverco/bafa.nvim',
-  version = 'v1.12.3',
+  'dont-be-evil-company/bafa.nvim',
+  version = 'v2.0.0',
 },
 ```
 
@@ -88,8 +87,8 @@ See: [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use {
-  'mistweaverco/bafa.nvim',
-  tag = 'v1.12.3',
+  'dont-be-evil-company/bafa.nvim',
+  tag = 'v2.0.0',
 })
 ```
 
@@ -97,8 +96,8 @@ use {
 
 ```lua
 vim.pack.add({
-  src = 'https://github.com/mistweaverco/bafa.nvim.git',
-  version = 'v1.12.3',
+  src = 'https://github.com/dont-be-evil-company/bafa.nvim.git',
+  version = 'v2.0.0',
 })
 require('bafa').setup()
 ```
@@ -287,7 +286,7 @@ Use visual mode to select multiple buffers
 and then press `K` or `J` to move them all up or down the list.
 
 For persistent changes between sessions, consider using
-[kikao.nvim](https://github.com/mistweaverco/kikao.nvim).
+[kikao.nvim](https://github.com/dont-be-evil-company/kikao.nvim).
 
 ### Quit without commiting changes
 
@@ -325,9 +324,8 @@ Press `Escape` or `g` to exit jump-label delete mode.
 [badge-development-status]: assets/badge-development-status.svg
 [badge-our-manifesto]: assets/badge-our-manifesto.svg
 [badge-made-with-love]: assets/badge-made-with-love.svg
-[our-manifesto]: https://mistweaverco.com/manifesto
-[development-status]: https://github.com/orgs/mistweaverco/projects/5/views/1?filterQuery=repo%3Amistweaverco%2Fbafa.nvim
-[contributors]: https://github.com/mistweaverco/bafa.nvim/graphs/contributors
+[our-manifesto]: https://the-dont-be-evil-company.com/manifesto
+[contributors]: https://github.com/dont-be-evil-company/bafa.nvim/graphs/contributors
 [logo]: assets/logo.svg
-[badge-latest-release]: https://img.shields.io/github/v/release/mistweaverco/bafa.nvim?style=for-the-badge
-[latest-release]: https://github.com/mistweaverco/bafa.nvim/releases/latest
+[badge-latest-release]: https://img.shields.io/github/v/release/dont-be-evil-company/bafa.nvim?style=for-the-badge
+[latest-release]: https://github.com/dont-be-evil-company/bafa.nvim/releases/latest
